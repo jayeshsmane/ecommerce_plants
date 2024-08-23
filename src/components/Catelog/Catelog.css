@@ -1,0 +1,32 @@
+.catelogsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.catelog {
+  cursor: pointer;
+  width: 25%;
+}
+
+.catelog__img {
+  height: 300px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+@media (max-width: 1000px) {
+    .catelog {
+        width: 45%;
+    }
+}
+@media (max-width: 710px) {
+    .catelog {
+        width: 100%;
+    }
+}

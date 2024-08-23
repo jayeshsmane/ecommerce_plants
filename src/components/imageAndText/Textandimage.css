@@ -1,0 +1,110 @@
+.imgandtextContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.imgandtext_img{
+    height: 300px;
+    width: 250px;
+}
+
+.categories{
+    text-align: center;
+}
+
+.shopButton{
+    width: 25%;
+    text-align: justify;
+}
+
+.shopButton button{
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.imgandtextSection{
+    margin: 60px 0;
+}
+
+.imgandtextSection h1{
+    margin: unset;
+}
+
+#equalWidth{
+    width: 45%;
+    cursor: pointer;
+}
+
+#equalWidth .imgandtext_img{
+    width: 100%;
+}
+
+#equalWidth p{
+    font-size: 22px;
+}
+
+.imgandtextContainer:has(> #equalWidth){
+    padding-top: 0;
+    margin-top: 0;
+}
+
+@media (max-width: 1250px) {
+    .imgandtext_img{
+        height: 250px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .imgandtext_img{
+        height: 250px;
+        width: 190px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .shopButton{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #equalWidth p{
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    #equalWidth p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 750px) {
+    .imgandtextSection{
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 550px) {
+    .imgandtextContainer{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgandtextWrapper{
+        width: 100%;
+    }
+
+    .imgandtextWrapper#equalWidth{
+        width: 100%;
+    }
+    
+    .imgandtextWrapper img{
+        width: 100%;
+    }
+}

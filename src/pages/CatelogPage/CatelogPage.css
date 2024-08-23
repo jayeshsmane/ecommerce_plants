@@ -1,0 +1,11 @@
+.catelogWrapper .imgandtextContainer{
+    gap: 60px;
+}
+.catelogWrapper .text-align{
+    text-align: start;
+    padding: unset;
+    margin: unset;
+}
+.catelogWrapper p{
+    margin: unset;
+}

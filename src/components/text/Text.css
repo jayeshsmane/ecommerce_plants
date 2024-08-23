@@ -1,0 +1,86 @@
+.smallText{
+    font-size: 20px;
+    font-weight: 700;
+}
+.mediumText{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.largeText{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.extralargeText{
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.text-align{
+    text-align: center;
+}
+.inputAndBtn{
+    display: flex;
+    justify-content: center;
+}
+.inputAndBtn input{
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: #e7e6e6;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 3px 0 0 3px;
+}
+.inputAndBtn button{
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+}
+.inputAndBtn{
+    display: none;
+    margin: 40px 0;
+}
+#inputField .inputAndBtn{
+    display: flex;
+}
+@media (max-width: 1000px) {
+    .text-align{
+        margin: unset;
+        padding: unset;
+    }
+    .largeText{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .extralargeText{
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 700px) {
+    .inputAndBtn input{
+        width: 100%;
+        font-size: 14px;
+    }
+    .inputAndBtn button{
+        font-size: 12px;
+        font-weight: 400;
+        padding: 10px 12px;
+    }
+}

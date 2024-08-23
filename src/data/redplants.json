@@ -1,0 +1,180 @@
+{
+  "bannerImage": "/assets/banner-img.jpg",
+
+  "bannerContent": {
+    "imageswithshopbutton": {
+      "heading": "",
+
+      "shopBtn": true,
+
+      "imgAndTxt": [
+        {
+          "image": "/assets/shop-one.jpg",
+          "text": "Plant-1 | Rs. 150"
+        },
+        {
+          "image": "/assets/shop-two.jpg",
+          "text": "Plant-2 | Rs. 70"
+        },
+        {
+          "image": "/assets/shop-three.jpg",
+          "text": "Plant-3 | Rs. 50"
+        }
+      ]
+    },
+
+    "imageAndText": {
+      "heading": "Categories",
+
+      "shopBtn": false,
+
+      "imgAndTxt": [
+        {
+          "image": "/assets/category-four.jpg",
+          "text": "Jungle Plants"
+        },
+        {
+          "image": "/assets/category-two.jpg",
+          "text": "Outdoor Plants"
+        },
+        {
+          "image": "/assets/category-three.jpg",
+          "text": "Bedroom Plants"
+        },
+        {
+          "image": "assets/category-four.jpg",
+          "text": "Indoor Plants"
+        }
+      ]
+    }
+  },
+
+  "quote" : {
+    "className" : "largeText",
+    "text" : "Love and work are to people what water and sunshine are to plants"
+  },
+
+  "edition": {
+    "heading": "",
+
+    "shopBtn": false, 
+
+    "equalWidth" : "equalWidth",
+
+    "imgAndTxt": [
+      {
+        "image": "/assets/category-four.jpg",
+        "text": "How to water your freaking plants so they dont die after one week"
+      },
+      {
+        "image": "/assets/category-four.jpg",
+        "text": "How to report a Monstera without killing it and foster its growth"
+      }
+    ]
+  },
+
+  "blogs" : {
+    "className" : "mediumText",
+    "text" : "Blogs"
+  },
+
+  "subscribe" : {
+    "className" : "smallText",
+    "text" : "Get 15% off your next order. Subscribe to our Newsletter",
+    "inputClass" : "inputField"
+  },
+
+  
+  "catelog": {
+    "heading": "",
+
+    "products": [
+      {
+        "image": "/assets/shop-one.jpg",
+        "text": "Plant-1 | Rs. 150",
+        "sku": "pro0001"
+      },
+      {
+        "image": "/assets/shop-two.jpg",
+        "text": "Plant-2 | Rs. 70",
+        "sku": "pro0002"
+      },
+      {
+        "image": "/assets/shop-three.jpg",
+        "text": "Plant-3 | Rs. 50",
+        "sku": "pro0003"
+      },
+      {
+        "image": "/assets/shop-one.jpg",
+        "text": "Plant-1 | Rs. 150",
+        "sku": "pro0004"
+      },
+      {
+        "image": "/assets/shop-two.jpg",
+        "text": "Plant-2 | Rs. 70",
+        "sku": "pro0005"
+      },
+      {
+        "image": "/assets/shop-three.jpg",
+        "text": "Plant-3 | Rs. 50",
+        "sku": "pro0006"
+      },
+      {
+        "image": "/assets/shop-one.jpg",
+        "text": "Plant-1 | Rs. 150",
+        "sku": "pro0007"
+      },
+      {
+        "image": "/assets/shop-two.jpg",
+        "text": "Plant-2 | Rs. 70",
+        "sku": "pro0008"
+      },
+      {
+        "image": "/assets/shop-three.jpg",
+        "text": "Plant-3 | Rs. 50",
+        "sku": "pro0009"
+      },
+      {
+        "image": "/assets/shop-one.jpg",
+        "text": "Plant-1 | Rs. 150",
+        "sku": "pro00010"
+      },
+      {
+        "image": "/assets/shop-two.jpg",
+        "text": "Plant-2 | Rs. 70",
+        "sku": "pro00011"
+      },
+      {
+        "image": "/assets/shop-three.jpg",
+        "text": "Plant-3 | Rs. 50",
+        "sku": "pro00012"
+      },
+      {
+        "image": "/assets/shop-one.jpg",
+        "text": "Plant-1 | Rs. 150",
+        "sku": "pro00013"
+      },
+      {
+        "image": "/assets/shop-two.jpg",
+        "text": "Plant-2 | Rs. 70",
+        "sku": "pro00014"
+      },
+      {
+        "image": "/assets/shop-three.jpg",
+        "text": "Plant-3 | Rs. 50",
+        "sku": "pro00015"
+      },
+      {
+        "image": "/assets/shop-three.jpg",
+        "text": "Plant-3 | Rs. 50",
+        "sku": "pro00016"
+      }
+    ]
+  },
+
+  "catelogText" : {
+    "className" : "mediumText",
+    "text" : "Checkout our catalouge and choose your favourites and Transform your home into a green sanctuary."
+  }
+  
+}

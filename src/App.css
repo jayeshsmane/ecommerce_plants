@@ -1,0 +1,19 @@
+.app-container{
+    padding: 0 80px;
+    margin: 0 80px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+    .app-container{
+        padding: 0 40px;
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 490px) {
+    .app-container{
+        padding: unset;
+        margin: 0 20px;
+    }
+}
